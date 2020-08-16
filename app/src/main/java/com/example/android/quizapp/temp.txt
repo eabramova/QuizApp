@@ -1,0 +1,17 @@
+Hi,
+//******************
+Important info:
+Please before reformat the code for the activity_main.xml file if you are using the Android Studio(AS) make sure that you have valid settings in the AS for reformatting Layouts
+otherwise the code in the activity_main.xml will be reformatted the way so the views will be reordered in a wrong order and app will look differently from what it's supposed to be
+(it's why previously you've got 32 line reformatted in activity_main.xml)!
+
+Here is the link what is happening in AS as a known issue on versions >3.x and how to fix it: https://stackoverflow.com/questions/53196252/android-studio-3-2-1-xml-bad-indent-format
+I have AS version 4.0 and the only thing that helped me to fix the problem was to set:
+File > Settings > Editor > Code style > XML then on Scheme switch to "Project" instead of "Default" (this is my solution).
+//******************
+
+I would like to thank you for the previous review - it was the great job done by the reviewer and I had an opportunity to fix all the Exceptions/Errors/Suggestions and Required.
+It made the code cleaner and app looks even better. Thanks again!
+
+Best,
+Elena

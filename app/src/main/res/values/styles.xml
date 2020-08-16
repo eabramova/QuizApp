@@ -1,0 +1,120 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light">
+        <!-- Primary theme color of the app (sets background color of app bar) -->
+        <item name="colorPrimary">#ec407a</item>
+        <item name="colorPrimaryDark">#b4004e</item>
+        <!-- Background color of buttons in the app -->
+        <item name="colorButtonNormal">#ff77a9</item>
+        <item name="android:textColor">@android:color/darker_gray</item>
+
+    </style>
+
+    <!-- Sets the LinearLayout style for the cards containing the questions and answers views/layouts   -->
+    <style name="LinearLayoutTop">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginBottom">@dimen/layout_margin_8dp</item>
+        <item name="android:layout_marginLeft">@dimen/layout_margin_24dp</item>
+        <item name="android:layout_marginRight">@dimen/layout_margin_24dp</item>
+        <item name="android:layout_marginTop">@dimen/layout_margin_8dp</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:paddingBottom">@dimen/padding_16dp</item>
+        <item name="android:background">@android:color/white</item>
+    </style>
+
+    <!-- Sets the style for the Questions titles -->
+    <style name="QuestionTitle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center</item>
+        <item name="android:padding">@dimen/padding_8dp</item>
+        <item name="android:background">@color/gray</item>
+        <item name="android:textColor">@color/team_text_color</item>
+        <item name="android:textSize">@dimen/questions_text_size</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+    </style>
+
+    <!-- Sets the style for the Questions text -->
+    <style name="QuestionText">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">@dimen/layout_margin_24dp</item>
+        <item name="android:layout_marginRight">@dimen/layout_margin_24dp</item>
+        <item name="android:layout_marginTop">@dimen/layout_margin_8dp</item>
+        <item name="android:gravity">left</item>
+        <item name="android:padding">@dimen/padding_8dp</item>
+        <item name="android:textColor">@color/colorBlack</item>
+        <item name="android:textSize">@dimen/questions_text_size</item>
+        <item name="android:fontFamily">sans-serif-light</item>
+    </style>
+
+    <!-- Sets the style for the RadioCroup views -->
+    <style name="RadioGroup">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">@dimen/layout_margin_24dp</item>
+        <item name="android:layout_marginRight">@dimen/layout_margin_24dp</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:gravity">left</item>
+        <item name="android:padding">@dimen/padding_8dp</item>
+        <item name="android:textColor">@color/colorBlack</item>
+        <item name="android:textSize">@dimen/questions_text_size</item>
+        <item name="android:fontFamily">sans-serif-light</item>
+    </style>
+
+    <!-- Sets the style for the RadioButton views -->
+    <style name="RadioButton">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginBottom">@dimen/layout_margin_8dp</item>
+        <item name="android:layout_marginTop">@dimen/layout_margin_8dp</item>
+        <item name="android:background">@color/colorSecondary</item>
+        <item name="android:padding">@dimen/padding_12dp</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textSize">@dimen/answers_text_size</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+    </style>
+
+    <!-- Sets the style for the CheckBox views -->
+    <style name="CheckBox">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginBottom">@dimen/layout_margin_8dp</item>
+        <item name="android:layout_marginTop">@dimen/layout_margin_8dp</item>
+        <item name="android:background">@color/colorSecondary</item>
+        <item name="android:padding">@dimen/padding_12dp</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textSize">@dimen/answers_text_size</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+    </style>
+
+    <!-- Sets the style for the EditText views -->
+    <style name="EditText">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginBottom">@dimen/layout_margin_8dp</item>
+        <item name="android:layout_marginTop">@dimen/layout_margin_8dp</item>
+        <item name="android:background">@color/colorSecondary</item>
+        <item name="android:padding">@dimen/padding_12dp</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textSize">@dimen/answers_text_size</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+    </style>
+
+    <!-- Sets the style for the Score Button -->
+    <style name="ScoreBttn">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_margin">@dimen/layout_margin_24dp</item>
+        <item name="android:gravity">center_horizontal|center_vertical</item>
+        <item name="android:padding">@dimen/padding_14dp</item>
+        <item name="android:text">@string/score_bttn_text</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:textColor">@android:color/black</item>
+        <item name="android:textSize">@dimen/normal_text_size</item>
+        <item name="android:fontFamily">sans-serif-black</item>
+        <item name="android:visibility">visible</item>
+    </style>
+
+</resources>

@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/gray"
+    android:orientation="horizontal">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:ignore="MissingConstraints">
+
+        <LinearLayout
+            android:id="@+id/linear_top"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="top"
+            android:orientation="vertical"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:ignore="MissingConstraints">
+
+            <LinearLayout
+                android:id="@+id/linear_top1"
+                style="@style/LinearLayoutTop"
+                tools:context=".MainActivity">
+
+                <TextView
+                    android:id="@+id/qs_1"
+                    style="@style/QuestionTitle"
+                    android:text="@string/qs_1_title"
+                    app:layout_constraintTop_toTopOf="@id/linear_top1" />
+
+                <TextView
+                    android:id="@+id/qs_1_text"
+                    style="@style/QuestionText"
+                    android:text="@string/qs_1" />
+
+                <RadioGroup
+                    android:id="@+id/radio_group_1"
+                    style="@style/RadioGroup">
+
+                    <RadioButton
+                        android:id="@+id/radio_ears"
+                        style="@style/RadioButton"
+                        android:text="@string/ears"
+                        app:buttonTint="@color/colorPrimaryDark" />
+
+                    <RadioButton
+                        android:id="@+id/radio_eyes"
+                        style="@style/RadioButton"
+                        android:text="@string/eyes"
+                        app:buttonTint="@color/colorPrimaryDark" />
+
+                    <RadioButton
+                        android:id="@+id/radio_nose"
+                        style="@style/RadioButton"
+                        android:text="@string/nose"
+                        app:buttonTint="@color/colorPrimaryDark" />
+                </RadioGroup>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linear_top2"
+                style="@style/LinearLayoutTop"
+                tools:context=".MainActivity">
+
+                <TextView
+                    android:id="@+id/qs2"
+                    style="@style/QuestionTitle"
+                    android:text="@string/qs_2_title"
+                    app:layout_constraintTop_toTopOf="@id/linear_top2" />
+
+                <TextView
+                    android:id="@+id/qs2_text"
+                    style="@style/QuestionText"
+                    android:text="@string/qs_2" />
+
+                <RadioGroup
+                    android:id="@+id/radio_group_2"
+                    style="@style/RadioGroup">
+
+                    <RadioButton
+                        android:id="@+id/radio_plants"
+                        style="@style/RadioButton"
+                        android:text="@string/plants"
+                        app:buttonTint="@color/colorPrimaryDark" />
+
+                    <RadioButton
+                        android:id="@+id/radio_seeds"
+                        style="@style/RadioButton"
+                        android:text="@string/seeds"
+                        app:buttonTint="@color/colorPrimaryDark" />
+
+                    <RadioButton
+                        android:id="@+id/radio_eggs"
+                        style="@style/RadioButton"
+                        android:text="@string/eggs"
+                        app:buttonTint="@color/colorPrimaryDark" />
+
+                    <RadioButton
+                        android:id="@+id/radio_flowers"
+                        style="@style/RadioButton"
+                        android:text="@string/flowers"
+                        app:buttonTint="@color/colorPrimaryDark" />
+                </RadioGroup>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linear_top3"
+                style="@style/LinearLayoutTop"
+                tools:context=".MainActivity">
+
+                <TextView
+                    android:id="@+id/qs_3_title"
+                    style="@style/QuestionTitle"
+                    android:text="@string/qs_3_title"
+                    app:layout_constraintTop_toTopOf="@id/linear_top3" />
+
+                <TextView
+                    android:id="@+id/qs_3_text"
+                    style="@style/QuestionText"
+                    android:text="@string/qs_3" />
+
+                <LinearLayout style="@style/RadioGroup">
+
+                    <CheckBox
+                        android:id="@+id/checkbox_russia"
+                        style="@style/CheckBox"
+                        android:text="@string/russia"
+                        app:buttonTint="@color/colorPrimaryDark" />
+
+                    <CheckBox
+                        android:id="@+id/checkbox_egypt"
+                        style="@style/CheckBox"
+                        android:text="@string/egypt"
+                        app:buttonTint="@color/colorPrimaryDark" />
+
+                    <CheckBox
+                        android:id="@+id/checkbox_japan"
+                        style="@style/CheckBox"
+                        android:text="@string/japan"
+                        app:buttonTint="@color/colorPrimaryDark" />
+
+                    <CheckBox
+                        android:id="@+id/checkbox_mexico"
+                        style="@style/CheckBox"
+                        android:text="@string/mexico"
+                        app:buttonTint="@color/colorPrimaryDark" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linear_top4"
+                style="@style/LinearLayoutTop"
+                tools:context=".MainActivity">
+
+                <TextView
+                    android:id="@+id/qs_4_title"
+                    style="@style/QuestionTitle"
+                    android:text="@string/qs_4_title"
+                    app:layout_constraintTop_toTopOf="@id/linear_top3" />
+
+                <TextView
+                    android:id="@+id/qs_4_text"
+                    style="@style/QuestionText"
+                    android:text="@string/qs_4" />
+
+                <LinearLayout style="@style/RadioGroup">
+
+                    <EditText
+                        android:id="@+id/edittext_qs4"
+                        style="@style/CheckBox"
+                        android:hint="@string/edit" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/score_button"
+                style="@style/ScoreBttn"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="parent"
+                app:layout_constraintVertical_bias="1.0" />
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="normal_text_size">14sp</dimen>
+    <dimen name="team_score_text_size">56sp</dimen>
+    <dimen name="layout_margin_8dp">8dp</dimen>
+    <dimen name="padding_8dp">8dp</dimen>
+    <dimen name="layout_margin_24dp">24dp</dimen>
+    <dimen name="layout_margin_4dp">4dp</dimen>
+    <dimen name="padding_12dp">12dp</dimen>
+    <dimen name="layout_margin_32dp">32dp</dimen>
+    <dimen name="team_name_text_size">16sp</dimen>
+    <dimen name="padding_16dp">16dp</dimen>
+    <dimen name="padding_14dp">14dp</dimen>
+    <dimen name="questions_text_size">20sp</dimen>
+    <dimen name="answers_text_size">16sp</dimen>
+</resources>

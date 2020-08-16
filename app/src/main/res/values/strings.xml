@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Quiz App</string>
+    <string name="qs_1_title">Question 1</string>
+    <string name="qs_1">What part of your body lets you see?</string>
+    <string name="ears">Ears</string>
+    <string name="eyes">Eyes</string>
+    <string name="score_bttn_text">Score</string>
+    <string name="plants">Plants</string>
+    <string name="seeds">Seeds</string>
+    <string name="eggs">Eggs</string>
+    <string name="qs_2">The baby of a bird comes from?</string>
+    <string name="flowers">Flowers</string>
+    <string name="nose">Nose</string>
+    <string name="qs_2_title">Question 2</string>
+    <string name="qs_3_title">Question 3</string>
+    <string name="qs_3">Which country(countries) have the pyramids?</string>
+    <string name="russia">Russia</string>
+    <string name="egypt">Egypt</string>
+    <string name="japan">Japan</string>
+    <string name="mexico">Mexico</string>
+    <string name="qs_4_title">Question 4</string>
+    <string name="qs_4">What animal can run the fastest: an elephant, squirrel or a mouse?</string>
+    <string name="edit">Enter your answer in this field</string>
+
+</resources>
